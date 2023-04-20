@@ -315,4 +315,40 @@ a {
   font-weight: 800;
   font-size: 24px;
   line-height: 30px;
+}
+
+.footer {
+  padding: 30px 0 25px;
+  background: #3c3535;
+  color: #fff;
+}
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 140px;
+}
+.footer__box {
+  flex-basis: 30%;
+}
+.footer__title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+}
+.footer__adress, .footer__item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+}
+.footer__list {
+  list-style-type: none;
+}
+.footer__item_white {
+  font-weight: 800;
+}
+.footer__tel {
+  font-size: 24px;
+  line-height: 38px;
+  font-weight: 400;
 }/*# sourceMappingURL=main.css.map */
