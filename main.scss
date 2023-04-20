@@ -442,3 +442,86 @@ a {
 		}
 	}
 }
+
+// style for about page
+
+.begin {
+	margin-top: 30px;
+	&__bg {
+		width: 100%;
+		background: #3076df;
+		color: $mainWhite;
+		padding: 30px 0 30px 30px;
+	}
+
+	&__title {
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 63px;
+	}
+
+	&__container {
+		margin-top: 50px;
+	}
+
+	&__text {
+		font-weight: 200;
+		font-size: 26px;
+		line-height: 41px;
+		margin-bottom: 15px;
+		&_blue {
+			font-weight: 800;
+			color: #286693;
+		}
+	}
+
+	&__personel {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 100px;
+		margin-top: 15px;
+	}
+
+	&__cardTitle {
+		margin-top: 25px;
+		font-weight: 600;
+		font-size: 25px;
+		line-height: 39px;
+		color: #286693;
+	}
+
+	&__cardText {
+		font-size: 20px;
+		line-height: 31px;
+	}
+}
+
+.form {
+	margin: 80px 0 30px;
+	padding: 30px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background: rgba(63, 163, 236, 0.5);
+
+	&__input {
+		flex-basis: 40%;
+		padding: 10px 0 10px 12px;
+		border: none;
+		font-style: normal;
+		font-weight: 100;
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	&__btn {
+		font-weight: 100;
+		font-size: 16px;
+		line-height: 25px;
+		color: #fff;
+		background: #3076df;
+		border: none;
+		padding: 10px 15px;
+	}
+}
