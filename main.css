@@ -60,6 +60,12 @@ a {
   line-height: 19px;
   color: #2772a8;
 }
+.nav__item_drop {
+  position: relative;
+}
+.nav__item_drop:hover .drop {
+  display: block;
+}
 
 .logo a {
   display: flex;
@@ -351,4 +357,20 @@ a {
   font-size: 24px;
   line-height: 38px;
   font-weight: 400;
+}
+
+.drop {
+  display: none;
+  position: absolute;
+  list-style-type: none;
+  top: 20px;
+  width: 220px;
+}
+.drop__el {
+  padding: 6px;
+  background: #fff;
+  border: 1px solid black;
+}
+.drop__el:first-of-type {
+  border-bottom: none;
 }/*# sourceMappingURL=main.css.map */

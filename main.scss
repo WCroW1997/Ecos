@@ -73,6 +73,14 @@ a {
 		font-size: 16px;
 		line-height: 19px;
 		color: #2772a8;
+
+		&_drop {
+			position: relative;
+
+			&:hover .drop {
+				display: block;
+			}
+		}
 	}
 }
 
@@ -415,5 +423,22 @@ a {
 		font-size: 24px;
 		line-height: 38px;
 		font-weight: 400;
+	}
+}
+
+.drop {
+	display: none;
+	position: absolute;
+	list-style-type: none;
+	top: 20px;
+	width: 220px;
+
+	&__el {
+		padding: 6px;
+		background: #fff;
+		border: 1px solid black;
+		&:first-of-type {
+			border-bottom: none;
+		}
 	}
 }
