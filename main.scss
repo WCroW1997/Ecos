@@ -473,6 +473,11 @@ a {
 			font-weight: 800;
 			color: #286693;
 		}
+
+		&_img {
+			width: 100%;
+			margin-bottom: 30px;
+		}
 	}
 
 	&__personel {
@@ -523,5 +528,51 @@ a {
 		background: #3076df;
 		border: none;
 		padding: 10px 15px;
+	}
+}
+
+.info {
+	margin: 20px 0 40px;
+
+	&__cardZone {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__card {
+		flex-basis: 45%;
+
+		&Text {
+			width: 70%;
+			margin-top: 40px;
+			font-weight: 200;
+			font-size: 16px;
+			line-height: 25px;
+		}
+	}
+
+	&_flex {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	&__list {
+		list-style-type: none;
+		flex-basis: 40%;
+		font-weight: 300;
+		font-size: 22px;
+		line-height: 35px;
+	}
+
+	&__item {
+		margin-top: 5px;
+		&_bold {
+			font-weight: 600;
+		}
+	}
+
+	&__img {
+		width: 60%;
 	}
 }

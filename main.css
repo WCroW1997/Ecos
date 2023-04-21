@@ -402,6 +402,10 @@ a {
   font-weight: 800;
   color: #286693;
 }
+.begin__text_img {
+  width: 100%;
+  margin-bottom: 30px;
+}
 .begin__personel {
   display: flex;
   justify-content: center;
@@ -446,4 +450,44 @@ a {
   background: #3076df;
   border: none;
   padding: 10px 15px;
+}
+
+.info {
+  margin: 20px 0 40px;
+}
+.info__cardZone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info__card {
+  flex-basis: 45%;
+}
+.info__cardText {
+  width: 70%;
+  margin-top: 40px;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 25px;
+}
+.info_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info__list {
+  list-style-type: none;
+  flex-basis: 40%;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 35px;
+}
+.info__item {
+  margin-top: 5px;
+}
+.info__item_bold {
+  font-weight: 600;
+}
+.info__img {
+  width: 60%;
 }/*# sourceMappingURL=main.css.map */
