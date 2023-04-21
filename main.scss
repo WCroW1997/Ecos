@@ -576,3 +576,46 @@ a {
 		width: 60%;
 	}
 }
+
+.price {
+	margin-top: 30px;
+	&__bg {
+		width: 100%;
+		background: #3076df;
+		color: $mainWhite;
+		padding: 30px 0 30px 30px;
+	}
+
+	&__title {
+		font-weight: 500;
+		font-size: 40px;
+		line-height: 63px;
+
+		&_h2 {
+			margin-top: 70px;
+			font-weight: 200;
+			font-size: 32px;
+			line-height: 50px;
+			text-transform: uppercase;
+		}
+	}
+}
+
+.table,
+.table__row,
+.table__item {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.table {
+	margin-top: 40px;
+	font-size: 22px;
+	line-height: 35px;
+	&__item {
+		padding: 20px 0 20px 25px;
+		&:last-of-type {
+			width: 21%;
+		}
+	}
+}
