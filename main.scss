@@ -735,6 +735,11 @@ a {
 	.footer__container {
 		gap: 30px;
 	}
+
+	.table {
+		font-size: 18px;
+		line-height: 24px;
+	}
 }
 
 @media screen and (max-width: 600px) {
@@ -902,12 +907,14 @@ a {
 		line-height: 22px;
 	}
 
-	.begin__title {
+	.begin__title,
+	.price__title {
 		font-size: 24px;
 		line-height: 38px;
 	}
 
-	.begin__bg {
+	.begin__bg,
+	.price__bg {
 		padding: 10px 0 10px 10px;
 	}
 	.begin__personel {
@@ -975,5 +982,23 @@ a {
 	.info__img {
 		width: 100%;
 		margin-top: 20px;
+	}
+
+	.table__item {
+		padding: 10px;
+	}
+
+	.table__item:last-of-type {
+		width: 25%;
+	}
+
+	.table {
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.price__title_h2 {
+		font-size: 26px;
+		line-height: 40px;
 	}
 }
