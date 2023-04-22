@@ -12,7 +12,9 @@
     <link rel="stylesheet" href="main.css">
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
-    <script src="scrypt.js" defer></script>
+    <script src="./js/scrypt.js" defer></script>
+    <script src="./js/burger.js" defer></script>
+
 
 </head>
 
@@ -28,23 +30,26 @@
             <p class="aside__text"><img src="./img/icon/icons8-телефон-100 (1) 2.svg" alt="icon: tel">(096) 96-59-606
             </p>
         </aside>
-        <div class="container">
+        <div class="container header__container">
+            <div class="logo"><a href="./index.html">
+                    <img src="./img/icon/logo.svg" alt="">
+                    <div class="logo__block">
+                        <p class="logo__main">Екос</p>
+                        <p class="logo__down">
+                            Центр Альтернативної
+                            Алергології
+                        </p>
+                    </div>
+                </a>
+            </div>
+            <div class="header__burger">
+                <span></span>
+            </div>
             <nav class="nav header__nav">
-                <div class="logo"><a href="./index.html">
-                        <img src="./img/icon/logo.svg" alt="">
-                        <div class="logo__block">
-                            <p class="logo__main">Екос</p>
-                            <p class="logo__down">
-                                Центр Альтернативної
-                                Алергології
-                            </p>
-                        </div>
-                    </a>
-                </div>
 
                 <ul class="nav__list">
                     <li><a href="./about.html" class="nav__item">ПРО НАС</a></li>
-                    <li class="nav__item nav__item_drop">ПОСЛУГИ
+                    <li class="nav__item nav__item_drop">ПОСЛУГИ ▽
                         <ul class="nav__drop drop">
                             <li class="drop__el"><a href="./alergy.html" class="nav__item drop__item">Лікування алергії
                                 </a></li>
@@ -176,7 +181,7 @@
                         що він потрапив в кращий медичний центр своєї галузі.
                     </p>
                 </div>
-                <img src="./img/1645179661_file_3s8cq 1.jpg" alt="">
+                <img class="about__img" src="./img/1645179661_file_3s8cq 1.jpg" alt="">
             </div>
         </section>
         <section class="advantages">
