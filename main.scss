@@ -701,6 +701,16 @@ a {
 	}
 }
 
+@media screen and (max-width: 860px) {
+	.aside {
+		display: none;
+	}
+
+	.footer__container {
+		gap: 100px;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.about__container,
 	.advantages__container,
@@ -845,13 +855,9 @@ a {
 			padding-left: 15px;
 		}
 	}
-
-	.aside {
-		display: none;
-	}
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 550px) {
 	.wrapper__footer {
 		display: none;
 	}
