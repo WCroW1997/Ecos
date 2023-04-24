@@ -68,25 +68,16 @@ a {
   display: block;
 }
 
+.logo {
+  width: 200px;
+}
+.logo img {
+  width: 100%;
+}
 .logo a {
   display: flex;
   gap: 5px;
   align-items: center;
-}
-.logo__main {
-  font-size: 33px;
-  line-height: 38px;
-  color: #000000;
-  border-bottom: 1px solid #286693;
-  text-transform: uppercase;
-  max-width: 120px;
-}
-.logo__down {
-  margin-top: 2px;
-  font-size: 11px;
-  line-height: 13px;
-  color: #000000;
-  max-width: 125px;
 }
 
 .section__title {
@@ -736,19 +727,27 @@ a {
   .slide__one {
     height: 200px;
   }
+  .section__title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .section__desc {
+    font-size: 16px;
+    line-height: 20px;
+  }
   .wrapper__content {
     margin-bottom: 60px;
   }
   .wrapper__title {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 28px;
+    line-height: 36px;
   }
   .wrapper__label {
-    font-size: 10px;
+    font-size: 12px;
     line-height: 16px;
   }
   .wrapper__desc {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 16px;
   }
   .swiper-pagination-bullet {
@@ -760,9 +759,12 @@ a {
     font-size: 18px;
     line-height: 22px;
   }
+  .card img {
+    width: 25%;
+  }
   .card__title {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 18px;
+    line-height: 22px;
   }
   .card__text {
     font-size: 16px;
@@ -770,7 +772,7 @@ a {
   }
   .begin__text,
   .info__list {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
   }
   .begin__title,
