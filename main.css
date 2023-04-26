@@ -616,6 +616,9 @@ a {
   .footer__container {
     flex-direction: column;
   }
+  .advantages__container {
+    align-items: flex-start;
+  }
   .service__card {
     flex-basis: 100%;
   }
