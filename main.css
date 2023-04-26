@@ -16,7 +16,7 @@ a {
 
 .container {
   margin: 0 auto;
-  max-width: 1140px;
+  max-width: 1200px;
   width: 100%;
 }
 
@@ -207,6 +207,10 @@ a {
   font-size: 20px;
   line-height: 31px;
 }
+.box__img {
+  max-width: 73px;
+  width: 100%;
+}
 
 .about {
   margin-top: 100px;
@@ -260,6 +264,7 @@ a {
 }
 .service__card {
   display: flex;
+  align-items: center;
   gap: 35px;
   flex-basis: 45%;
 }
@@ -275,6 +280,10 @@ a {
   font-size: 18px;
   line-height: 28px;
   margin-top: 10px;
+}
+.card__img {
+  max-width: 141px;
+  width: 100%;
 }
 
 .experience {
@@ -595,6 +604,10 @@ a {
   .footer__container {
     gap: 100px;
   }
+  .service__zone {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
 }
 @media screen and (max-width: 768px) {
   .about__container,
@@ -602,10 +615,6 @@ a {
   .experience__content,
   .footer__container {
     flex-direction: column;
-  }
-  .service__zone {
-    flex-wrap: wrap;
-    gap: 40px;
   }
   .service__card {
     flex-basis: 100%;
