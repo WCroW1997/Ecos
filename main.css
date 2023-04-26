@@ -86,7 +86,7 @@ a {
   font-weight: 500;
   font-size: 40px;
   line-height: 63px;
-  color: #286693;
+  color: #000;
 }
 .section__desc {
   font-family: "Saira", sans-serif;
@@ -253,6 +253,7 @@ a {
 
 .service {
   margin-top: 85px;
+  background: rgba(245, 242, 242, 0.6);
 }
 .service__zone {
   margin-top: 45px;
@@ -421,7 +422,6 @@ a {
 }
 .begin__text_blue {
   font-weight: 800;
-  color: #286693;
 }
 .begin__text_img {
   width: 100%;
@@ -439,7 +439,7 @@ a {
   font-weight: 600;
   font-size: 25px;
   line-height: 39px;
-  color: #286693;
+  color: #000;
 }
 .begin__cardText {
   font-size: 20px;
@@ -636,6 +636,9 @@ a {
   }
   .footer__container {
     gap: 30px;
+  }
+  .footer__title {
+    margin-bottom: 24px;
   }
   .table {
     font-size: 18px;

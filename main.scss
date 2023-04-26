@@ -16,7 +16,7 @@ $blueTwo: #89b2f0;
 $blueThree: #1151b2;
 $blueFour: #5076ae;
 $gray: #cbc0c0;
-$titleBlue: #286693;
+$titleBlue: #000;
 
 body {
 	font-family: $fontInter;
@@ -304,7 +304,7 @@ a {
 
 .service {
 	margin-top: 85px;
-
+	background: rgba(245, 242, 242, 0.6);
 	&__zone {
 		margin-top: 45px;
 		display: flex;
@@ -327,7 +327,7 @@ a {
 		font-weight: 600;
 		font-size: 24px;
 		line-height: 38px;
-		color: $titleBlue;
+		color: #286693;
 	}
 
 	&__text {
@@ -371,7 +371,7 @@ a {
 
 .review {
 	margin-top: 120px;
-	background: $titleBlue;
+	background: #286693;
 	text-align: center;
 	color: #ffffff;
 	padding: 15px 0;
@@ -498,7 +498,7 @@ a {
 		margin-bottom: 15px;
 		&_blue {
 			font-weight: 800;
-			color: #286693;
+			// color: #286693;
 		}
 
 		&_img {
@@ -520,7 +520,7 @@ a {
 		font-weight: 600;
 		font-size: 25px;
 		line-height: 39px;
-		color: #286693;
+		color: #000;
 	}
 
 	&__cardText {
@@ -748,6 +748,10 @@ a {
 
 	.footer__container {
 		gap: 30px;
+	}
+
+	.footer__title {
+		margin-bottom: 24px;
 	}
 
 	.table {
