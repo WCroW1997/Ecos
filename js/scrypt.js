@@ -31,6 +31,9 @@ const swiper2 = new Swiper('.swiper2', {
     pagination: {
         el: '.swiper-pagination',
     },
+    // autoplay: {
+    //     delay: 15000,
+    // },
 });
 
 

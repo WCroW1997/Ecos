@@ -102,10 +102,8 @@ a {
 
 .wrapper {
   margin-top: 27px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
   color: #fff;
+  position: relative;
 }
 .wrapper__title {
   font-size: 45px;
@@ -125,14 +123,13 @@ a {
   text-decoration: underline;
   margin-top: 20px;
 }
-.wrapper__content {
-  margin-bottom: 120px;
-}
 .wrapper__footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 80px;
+  position: absolute;
+  bottom: 80px;
+  width: 100%;
 }
 
 .slide__one {
@@ -143,7 +140,7 @@ a {
   flex-basis: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 .slide__two {
   max-width: 100vw;
@@ -153,7 +150,7 @@ a {
   flex-basis: 100%;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 .slide__two_blue {
   color: #286693;
@@ -169,6 +166,7 @@ a {
   font-weight: 600;
   font-size: 16px;
   line-height: 25px;
+  z-index: 2;
 }
 .box__arrow {
   background: #3076df;
@@ -189,6 +187,7 @@ a {
 .box__two {
   background: #89b2f0;
   z-index: 2;
+  padding-left: 35px;
 }
 .box__three {
   background: #1151b2;
@@ -307,6 +306,9 @@ a {
   font-weight: 500;
   font-size: 24px;
   line-height: 38px;
+}
+.experience__title {
+  margin-bottom: 20px;
 }
 
 .review {
