@@ -25,6 +25,10 @@ body {
 a {
 	text-decoration: none;
 	display: block;
+
+	&:visited {
+		color: #fff;
+	}
 }
 
 .container {
@@ -77,6 +81,10 @@ a {
 		font-size: 16px;
 		line-height: 19px;
 		color: #2772a8;
+
+		&:visited {
+			color: #2772a8;
+		}
 
 		&_drop {
 			position: relative;
@@ -238,6 +246,7 @@ a {
 	}
 	&__three {
 		background: $blueThree;
+		position: relative;
 	}
 	&__four {
 		background: $blueFour;
@@ -259,6 +268,27 @@ a {
 	&__img {
 		max-width: 73px;
 		width: 100%;
+	}
+
+	&__hover {
+		top: -75px;
+		padding: 10px 0;
+		width: 100%;
+		background: $blueThree;
+		position: absolute;
+		display: none;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	&__three:hover &__hover {
+		display: flex;
+	}
+
+	&__three:hover &__img_rotate {
+		transform: rotate(-90deg);
+		transition: all 0.5s;
 	}
 }
 
@@ -299,6 +329,10 @@ a {
 		justify-content: center;
 		align-items: center;
 		gap: 10px;
+
+		&:visited {
+			color: #000;
+		}
 	}
 
 	&__bg {
@@ -363,7 +397,8 @@ a {
 	&__image {
 		position: absolute;
 		left: 0;
-		width: 46%;
+		width: 45%;
+		margin-top: 30px;
 	}
 
 	&__list {
@@ -699,6 +734,10 @@ a {
 
 	.box__arrow::after {
 		display: none;
+	}
+
+	.box__hover {
+		top: 75px;
 	}
 
 	.service__zone {

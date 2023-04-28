@@ -13,6 +13,9 @@ a {
   text-decoration: none;
   display: block;
 }
+a:visited {
+  color: #fff;
+}
 
 .container {
   margin: 0 auto;
@@ -59,6 +62,9 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
+  color: #2772a8;
+}
+.nav__item:visited {
   color: #2772a8;
 }
 .nav__item_drop {
@@ -191,6 +197,7 @@ a {
 }
 .box__three {
   background: #1151b2;
+  position: relative;
 }
 .box__four {
   background: #5076ae;
@@ -209,6 +216,24 @@ a {
 .box__img {
   max-width: 73px;
   width: 100%;
+}
+.box__hover {
+  top: -75px;
+  padding: 10px 0;
+  width: 100%;
+  background: #1151b2;
+  position: absolute;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box__three:hover .box__hover {
+  display: flex;
+}
+.box__three:hover .box__img_rotate {
+  transform: rotate(-90deg);
+  transition: all 0.5s;
 }
 
 .about {
@@ -244,6 +269,9 @@ a {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+.advantages__link:visited {
+  color: #000;
 }
 .advantages__bg {
   margin-top: 30px;
@@ -299,7 +327,8 @@ a {
 .experience__image {
   position: absolute;
   left: 0;
-  width: 46%;
+  width: 45%;
+  margin-top: 30px;
 }
 .experience__list {
   flex-basis: 46%;
@@ -591,6 +620,9 @@ a {
   }
   .box__arrow::after {
     display: none;
+  }
+  .box__hover {
+    top: 75px;
   }
   .service__zone {
     gap: 20px;
