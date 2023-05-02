@@ -21,6 +21,7 @@ const swiper = new Swiper('.swiper1', {
     autoplay: {
         delay: 5000,
     },
+    autoHeight: true,
 });
 
 const swiper2 = new Swiper('.swiper2', {

@@ -280,6 +280,7 @@ a:visited {
 
 .service {
   margin-top: 85px;
+  padding: 20px 0;
   background: rgba(245, 242, 242, 0.6);
 }
 .service__zone {
@@ -631,6 +632,13 @@ a:visited {
     font-size: 20px;
     line-height: 30px;
   }
+  .review,
+  .about,
+  .advantages,
+  .service,
+  .experience {
+    margin-top: 60px;
+  }
 }
 @media screen and (max-width: 860px) {
   .aside {
@@ -678,6 +686,16 @@ a:visited {
   .table {
     font-size: 18px;
     line-height: 24px;
+  }
+  .info__cardZone {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .info__card {
+    flex-basis: 100%;
+  }
+  .info__card img {
+    width: 100%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -853,6 +871,7 @@ a:visited {
     line-height: 22px;
   }
   .form {
+    margin-top: 30px;
     padding: 0;
     flex-wrap: wrap;
     background: none;
@@ -864,16 +883,6 @@ a:visited {
   }
   .form__title {
     display: block;
-  }
-  .info__cardZone {
-    flex-wrap: wrap;
-    gap: 30px;
-  }
-  .info__card {
-    flex-basis: 100%;
-  }
-  .info__card img {
-    width: 100%;
   }
   .info__cardText {
     margin-top: 15px;
@@ -902,5 +911,12 @@ a:visited {
   .price__title_h2 {
     font-size: 26px;
     line-height: 40px;
+  }
+  .review,
+  .about,
+  .advantages,
+  .service,
+  .experience {
+    margin-top: 40px;
   }
 }/*# sourceMappingURL=main.css.map */
